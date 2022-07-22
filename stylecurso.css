@@ -1,0 +1,131 @@
+*{ 
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+                                /* CABEÇALHO */
+header { 
+    background: #2E948A;
+    margin: auto;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logo-inicio{margin: 80px;}
+header menu { 
+    display: flex;
+    list-style: none;
+    margin: 90px;
+    
+}
+header menu li a { padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color:#FDFDFD;
+}
+                           /* SECTION INVESTIMENTO */
+                           
+
+
+.investimento{ display: flex;
+padding: 100px 100px;}
+
+.img-01{ padding: 0px 150px;
+
+}
+
+.investimento h2{
+    padding: 20px 50px;
+    font-weight: 700;
+    font-size: 55px;
+    color: #FF4081;
+}
+
+.investimento p{
+    margin-top: -2%;
+    height: 196px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+                              /* Video Aulas*/
+
+.video-aula{ background: #E5E5E5;}
+
+
+.aula-1{padding: 50px 150px;}
+
+.texto{ display: inline-block;
+        vertical-align: top;
+        padding: 0px 0px 0px 70px;
+}
+.texto h3{
+    
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+
+}
+.texto p{ 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000; 
+}
+.border { border: 1px solid #C4C4C4;
+          background-color: #C4C4C4;
+          width: 1284px;
+          height: 2px;
+          margin: 5%;
+
+}
+
+
+
+footer{ 
+    background-color: #419488;
+    margin: auto;
+    height: 207px;
+}
+#ilustrafim{ 
+    width: 300px;
+    padding: 50px 0px 0px 100px;
+}
+footer menu { display:inline-block;
+    padding-inline: 250px;
+}
+
+footer menu li { padding: 6px ;
+    font-size: 23px;
+}
+
+footer menu li a{color: #FDFDFD;}
+footer div ul { 
+    float: right;
+    margin: -115px 90px 0px 0px;
+    width: 289px;
+}
+
+footer div ul li {
+    height: 42px;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 42px;
+}
+footer a{ color: #FDFDFD;}
+

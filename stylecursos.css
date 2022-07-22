@@ -1,0 +1,133 @@
+*{ 
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+                             /* Cabeçalho */
+header { 
+    background: #2E948A;
+    margin: auto;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logo-inicio{margin: 80px;}
+header menu { 
+    display: flex;
+    list-style: none;
+    margin: 90px;
+    
+}
+header menu li a { padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color:#FDFDFD;
+}
+
+                                   /* CURSOS */
+.cursos{ 
+    Font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+    padding: 100px 0px 0px 100px;
+
+}
+.cursos p{font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+
+}
+                           /* MODALIDADES. */
+.container{ 
+    margin: 10%;
+   
+}
+.texto{ 
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+}
+h3{font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+p{  font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+button{ background: #419488;
+        border-radius: 62px;
+        border: 2px solid #419488;
+        width: 233px;
+        height: 51px;
+        color: #FDFDFD;
+        font-size: 20px;
+        cursor: pointer;
+}
+.texto2{
+    margin: 10%;
+}
+                                 /* BORDAS */
+.border1{ border: 2px solid #C4C4C4;
+          background-color: #C4C4C4;
+          width: 1284px;
+          height: 5px;
+          margin: 5%;
+          
+       
+}
+                                /* RODAPE */
+
+footer{ 
+    background-color: #419488;
+    margin: auto;
+    height: 207px;
+}
+#ilustrafim{ 
+    width: 300px;
+    padding: 50px 0px 0px 100px;
+}
+footer menu { display:inline-block;
+    padding-inline: 250px;
+}
+
+footer menu li { padding: 6px ;
+    font-size: 23px;
+}
+
+footer menu li a{color: #FDFDFD;
+    font-family: 'Ubuntu';
+}
+footer div ul { 
+    float: right;
+    margin: -115px 90px 0px 0px;
+    width: 289px;
+}
+
+footer div ul li {
+    height: 42px;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 42px;
+}
+footer a{ color: #FDFDFD;}
+
+
+
+

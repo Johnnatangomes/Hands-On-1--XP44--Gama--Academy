@@ -1,0 +1,140 @@
+*{ 
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header { 
+    background: #2E948A;
+    margin: auto;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+#logo-inicio{margin: 80px;}
+
+header menu { 
+    display: flex;
+    list-style: none;
+    margin: 90px;
+    
+}
+
+header menu li a { padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    color:#FDFDFD;
+}
+main{
+    margin: 100px;
+}
+
+main h1{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+    text-align: center;
+    
+}
+main p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9D9D9D;
+    text-align: center;
+
+}
+.conteudo{ text-align: center;
+}
+.text p{ 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+    width: 1032px;
+    height: 1061px;
+    padding: 0px 0px 0px 200px;
+    text-align: left;
+    
+    
+}
+.text span{ 
+    font-size: 30px; 
+    color:#419488;
+    size: 10px;
+}
+
+.investindo{display: flex;
+    background-color: #F7F7F7;;
+    height: 730px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}
+.investindo h4{  color: #FF4081;
+    width: 344px;
+    height: 39px;
+    font-size: 25px;
+
+}
+.investindo button{
+    background: #FF4081;
+    border: 1px solid #FF4081;
+    border-radius: 62px;
+    color: #FFFFFF;
+    width: 233px;
+    height: 51px;
+    cursor: pointer;
+}
+
+
+
+footer{ 
+    background-color: #419488;
+    margin: auto;
+    height: 207px;
+}
+#ilustrafim{ 
+    width: 300px;
+    padding: 50px 0px 0px 100px;
+}
+footer menu { display:inline-block;
+    padding-inline: 250px;
+}
+
+footer menu li { padding: 6px ;
+    font-size: 23px;
+}
+
+footer menu li a{color: #FDFDFD;
+    font-family: 'Ubuntu';
+}
+footer div ul { 
+    float: right;
+    margin: -115px 90px 0px 0px;
+    width: 289px;
+}
+
+footer div ul li {
+    height: 42px;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 42px;
+}
+footer a{ color: #FDFDFD;}
+
